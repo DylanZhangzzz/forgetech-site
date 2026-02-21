@@ -48,12 +48,6 @@ const translations = {
         viewCaseStudy: "View Case Study",
         projects: [
             {
-                title: "FinMind AI",
-                category: "FinTech",
-                description: "An advanced financial forecasting dashboard leveraging predictive algorithms to visualize market trends in real-time.",
-                tags: ["React", "Python"],
-            },
-            {
                 title: "MediScan",
                 category: "HealthTech",
                 description: "AI-powered diagnostic assistant that helps radiologists detect anomalies in MRI scans with 99.8% accuracy.",
@@ -133,12 +127,6 @@ const translations = {
         viewAllProjects: "查看全部项目",
         viewCaseStudy: "查看案例详情",
         projects: [
-            {
-                title: "FinMind AI",
-                category: "金融科技",
-                description: "先进的金融预测仪表盘，利用预测算法实时可视化市场趋势。",
-                tags: ["React", "Python"],
-            },
             {
                 title: "MediScan",
                 category: "健康科技",
