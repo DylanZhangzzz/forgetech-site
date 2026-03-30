@@ -36,7 +36,14 @@ export default function Footer() {
                             {t.footerEmail}
                         </a>
                     </div>
-                    <p className="text-sm text-slate-500">{t.footerCopyright}</p>
+                    <div className="flex flex-col items-center md:items-end gap-2">
+                        <div className="flex gap-4 text-sm text-slate-500">
+                            <a href="#/privacy" className="hover:text-primary transition-colors">
+                                隐私政策 · Privacy Policy
+                            </a>
+                        </div>
+                        <p className="text-sm text-slate-500">{t.footerCopyright}</p>
+                    </div>
                 </div>
             </div>
         </footer>
