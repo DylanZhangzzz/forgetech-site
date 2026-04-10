@@ -39,7 +39,11 @@ export default function Footer() {
                     <div className="flex flex-col items-center md:items-end gap-2">
                         <div className="flex gap-4 text-sm text-slate-500">
                             <a href="/privacy" className="hover:text-primary transition-colors">
-                                隐私政策 · Privacy Policy
+                                秃了么 Privacy
+                            </a>
+                            <span className="text-slate-700">|</span>
+                            <a href="/privacy/hairscope" className="hover:text-primary transition-colors">
+                                HairScope Privacy
                             </a>
                         </div>
                         <p className="text-sm text-slate-500">{t.footerCopyright}</p>
